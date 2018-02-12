@@ -11,7 +11,7 @@ namespace DBEX2_KFS
 {
     class Tweets
     {
-        [BsonElement("_id")]
+        [BsonId]
         public ObjectId _id { get; set; }
 
         [BsonElement("polarity")]
@@ -31,5 +31,7 @@ namespace DBEX2_KFS
 
         [BsonElement("text")]
         public string text { get; set; }
+
+        //public BsonDocument Metadata { get; set; }
     }
 }

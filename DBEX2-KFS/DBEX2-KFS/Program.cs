@@ -14,14 +14,29 @@ namespace DBEX2_KFS
     {
         static void Main(string[] args)
         {
-            BsonClassMap.RegisterClassMap<Tweets>(cm =>
-            {
-                cm.AutoMap();
-            });
             MainAsync().Wait();
 
             Console.ReadLine();
         }
+
+        //public static class MongoDB
+        //{
+        //    var connectionString = "mongodb://192.168.33.10:27017";
+
+        //    var client = new MongoClient(connectionString);
+
+        //    var database = client.GetDatabase("social_net");
+
+        //    var collection = database.GetCollection<Tweets>("tweets");
+        //    Console.WriteLine("1");
+        //    var list = await collection.Find(x => x.polarity == 4).ToListAsync();
+        //    Console.WriteLine("2");
+        //    foreach (var item in list)
+        //    {
+        //        Console.WriteLine(item.user);
+        //    }
+        //    Console.WriteLine("3");
+        //}
 
         static async Task MainAsync()
         {
@@ -32,15 +47,17 @@ namespace DBEX2_KFS
 
             var database = client.GetDatabase("social_net");
 
+            MyInt32Serializer serializer = new MyInt32Serializer();
+
             var collection = database.GetCollection<Tweets>("tweets");
-
-            var list = await collection.Find(x => x.user == "Jack").ToListAsync();
-
+            Console.WriteLine("1");
+            var list = await collection.Find(x => x.polarity == 4).ToListAsync();
+            Console.WriteLine("2");
             foreach (var item in list)
             {
                 Console.WriteLine(item.user);
             }
-
+            Console.WriteLine("3");
             //Console.WriteLine(tweets.ToString());
 
             //var query = 
