@@ -1,0 +1,16 @@
+C:\Users\reape\Desktop\Database\DBEX2-KFS\DBEX2-KFS\DBEX2-KFS\bin\Debug\DBEX2-KFS.exe.config
+C:\Users\reape\Desktop\Database\DBEX2-KFS\DBEX2-KFS\DBEX2-KFS\bin\Debug\DBEX2-KFS.exe
+C:\Users\reape\Desktop\Database\DBEX2-KFS\DBEX2-KFS\DBEX2-KFS\bin\Debug\DBEX2-KFS.pdb
+C:\Users\reape\Desktop\Database\DBEX2-KFS\DBEX2-KFS\DBEX2-KFS\bin\Debug\DnsClient.dll
+C:\Users\reape\Desktop\Database\DBEX2-KFS\DBEX2-KFS\DBEX2-KFS\bin\Debug\MongoDB.Bson.dll
+C:\Users\reape\Desktop\Database\DBEX2-KFS\DBEX2-KFS\DBEX2-KFS\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\reape\Desktop\Database\DBEX2-KFS\DBEX2-KFS\DBEX2-KFS\bin\Debug\MongoDB.Driver.dll
+C:\Users\reape\Desktop\Database\DBEX2-KFS\DBEX2-KFS\DBEX2-KFS\bin\Debug\System.Buffers.dll
+C:\Users\reape\Desktop\Database\DBEX2-KFS\DBEX2-KFS\DBEX2-KFS\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\reape\Desktop\Database\DBEX2-KFS\DBEX2-KFS\DBEX2-KFS\bin\Debug\DnsClient.xml
+C:\Users\reape\Desktop\Database\DBEX2-KFS\DBEX2-KFS\DBEX2-KFS\bin\Debug\MongoDB.Bson.xml
+C:\Users\reape\Desktop\Database\DBEX2-KFS\DBEX2-KFS\DBEX2-KFS\bin\Debug\MongoDB.Driver.xml
+C:\Users\reape\Desktop\Database\DBEX2-KFS\DBEX2-KFS\DBEX2-KFS\bin\Debug\MongoDB.Driver.Core.xml
+C:\Users\reape\Desktop\Database\DBEX2-KFS\DBEX2-KFS\DBEX2-KFS\obj\Debug\DBEX2-KFS.csprojResolveAssemblyReference.cache
+C:\Users\reape\Desktop\Database\DBEX2-KFS\DBEX2-KFS\DBEX2-KFS\obj\Debug\DBEX2-KFS.exe
+C:\Users\reape\Desktop\Database\DBEX2-KFS\DBEX2-KFS\DBEX2-KFS\obj\Debug\DBEX2-KFS.pdb
